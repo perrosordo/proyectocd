@@ -1,0 +1,282 @@
+---
+title: "Reto 8 n2"
+output: html_document
+date: "2024-07-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Análisis y Transformación de Datos en R
+
+En este análisis, utilizamos las bibliotecas readxl y dplyr en R para cargar y transformar un archivo Excel llamado 'datos finales.xlsx'. Renombramos las columnas para hacerlas más descriptivas y seleccionamos solo las variables clave. Mapeamos valores categóricos a etiquetas legibles para las columnas de género, tipo de domicilio y país. Creamos nuevas variables categorizando la edad en rangos ajustados y los años de educación en niveles educativos. También asignamos regiones geográficas a los países. Finalmente, exploramos la estructura del dataframe y obtuvimos un resumen descriptivo de los datos transformados, preparando el conjunto de datos para análisis posteriores.
+
+```{r cars}
+# Obtener el directorio de trabajo actual
+current_directory <- getwd()
+
+# Mostrar el directorio de trabajo actual
+print(current_directory)
+
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("reshape2")
+
+
+install.packages("readxl")
+install.packages("dplyr")
+
+library(readxl)
+library(dplyr)
+
+# Cargar el archivo Excel
+file_path <- 'datos finales.xlsx'  # Actualiza con la ruta a tu archivo
+data <- read_excel(file_path)
+
+# Renombrar las columnas
+data <- data %>%
+  rename(
+    Posicion_Politica = lrscale,
+    Permitir_Inmigrantes_Etnicos = imdfetn,
+    Permitir_Inmigrantes_Pobres = impcntr,
+    Impacto_Economico_Inmigracion = imbgeco,
+    Impacto_Cultural_Inmigracion = imueclt,
+    Impacto_Calidad_Vida_Inmigracion = imwbcnt,
+    Apego_Emocional_Pais = atchctr,
+    Edad_Encuestado = agea,
+    Tipo_Domicilio = domicil,
+    Nivel_Educacion_Completado = edulvlb,
+    Anios_Educacion_Completados = eduyrs,
+    Satisfaccion_Ingresos_Hogar = hincfel,
+    Pais = cntry,
+    Genero = gndr
+  )
+
+# Filtrar solo las columnas renombradas
+data <- data %>%
+  select(
+    Permitir_Inmigrantes_Etnicos, Permitir_Inmigrantes_Pobres,
+    Impacto_Economico_Inmigracion, Impacto_Cultural_Inmigracion,
+    Impacto_Calidad_Vida_Inmigracion, Edad_Encuestado,
+    Anios_Educacion_Completados, Satisfaccion_Ingresos_Hogar,
+    Pais, Genero, Tipo_Domicilio
+  )
+
+# Mapear valores categóricos a etiquetas legibles
+data <- data %>%
+  mutate(
+    Genero = recode(Genero, `1` = 'Male', `2` = 'Female'),
+    Tipo_Domicilio = recode(Tipo_Domicilio,
+                            `1` = 'A big city',
+                            `2` = 'Suburbs or outskirts of big city',
+                            `3` = 'Town or small city',
+                            `4` = 'Country village',
+                            `5` = 'Farm or home in countryside'),
+    Pais = recode(Pais,
+                  `AT` = 'Austria', `CH` = 'Switzerland', `DE` = 'Germany', `FI` = 'Finland',
+                  `GB` = 'United Kingdom', `HR` = 'Croatia', `HU` = 'Hungary', `IE` = 'Ireland',
+                  `LT` = 'Lithuania', `NL` = 'Netherlands', `NO` = 'Norway', `SI` = 'Slovenia',
+                  `SK` = 'Slovakia')
+  )
+
+# Crear nueva variable de rangos de edad ajustados
+bins <- c(14, 29, 44, 59, 74, 90)
+labels <- c('Jóvenes (15-29)', 'Adultos Jóvenes (30-44)', 'Adultos (45-59)', 'Adultos Mayores (60-74)', 'Ancianos (75-90)')
+data <- data %>%
+  mutate(Rango_Edad = cut(Edad_Encuestado, breaks = bins, labels = labels))
+
+# Crear nueva variable de regiones geográficas
+region_mapping <- c(
+  'Austria' = 'Europa Occidental', 'Switzerland' = 'Europa Occidental', 'Germany' = 'Europa Occidental',
+  'Finland' = 'Europa del Norte', 'United Kingdom' = 'Europa del Norte', 'Croatia' = 'Europa del Sur',
+  'Hungary' = 'Europa del Este', 'Ireland' = 'Europa del Norte', 'Lithuania' = 'Europa del Norte',
+  'Netherlands' = 'Europa Occidental', 'Norway' = 'Europa del Norte', 'Slovenia' = 'Europa del Sur',
+  'Slovakia' = 'Europa del Este'
+)
+
+data <- data %>%
+  mutate(Region_Geografica = recode(Pais, !!!region_mapping))
+
+# Crear nueva variable de niveles de educación completados
+bins_educ <- c(0, 5, 12, 15, 19, Inf)
+labels_educ <- c('Sin Educación Formal', 'Educación Primaria', 'Educación Secundaria', 'Educación Técnica o Profesional', 'Educación Universitaria y Posgrado')
+data <- data %>%
+  mutate(Nivel_Educacion_Agrupado = cut(Anios_Educacion_Completados, breaks = bins_educ, labels = labels_educ, right = FALSE))
+
+# Mostrar las primeras filas del dataframe para entender su estructura
+print(head(select(data, Edad_Encuestado, Rango_Edad, Pais, Region_Geografica, Anios_Educacion_Completados, Nivel_Educacion_Agrupado)))
+print(glimpse(data))
+print(summary(data))
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+# Revisar valores faltantes
+missing_values <- colSums(is.na(data))
+
+# Mostrar la cantidad de valores faltantes por columna
+print(missing_values)
+```
+
+Para visualizar la distribución de cada variable numérica, creamos histogramas utilizando la biblioteca ggplot2. Utilizamos un bucle for para iterar a través de cada columna numérica y generar un histograma correspondiente.
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+library(dplyr)
+
+# Seleccionar columnas numéricas
+numeric_cols <- data %>%
+  select(where(is.numeric)) %>%
+  names()
+
+# Estadísticas descriptivas
+print(summary(data[numeric_cols]))
+
+# Crear histogramas para cada columna numérica
+for (col in numeric_cols) {
+  p <- ggplot(data, aes_string(x = col)) +
+    geom_histogram(bins = 30, fill = "blue", color = "black", alpha = 0.7) +
+    theme_minimal() +
+    labs(title = paste("Histograma de", col), x = col, y = "Frecuencia")
+  print(p)
+}
+```
+## Análisis de Frecuencia de Variables Categóricas
+
+
+```{r pressure, echo=FALSE}
+# Variables categóricas
+categorical_cols <- c('Pais', 'Genero', 'Tipo_Domicilio', 'Rango_Edad', 'Nivel_Educacion_Agrupado', 'Region_Geografica')
+
+for (col in categorical_cols) {
+  cat(paste("Frecuencia de", col, ":\n"))
+  print(table(data[[col]]))
+  cat("\n")
+}
+```
+## Matriz de Correlación - Método de Spearman
+
+En este análisis, calculamos la matriz de correlación para las variables numéricas utilizando el método de Spearman y visualizamos los resultados en un heatmap . A continuación se describen los pasos que seguimos:
+
+
+
+
+```{r pressure, echo=FALSE}
+
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+
+# Seleccionar columnas numéricas
+numeric_cols <- data %>%
+  select(where(is.numeric))
+
+# Calcular la matriz de correlación usando el método de Spearman
+correlation_matrix <- cor(numeric_cols, method = "spearman")
+
+# Convertir la matriz de correlación a un formato largo para ggplot2
+melted_correlation_matrix <- melt(correlation_matrix)
+
+# Visualización de la matriz de correlación mejorada
+ggplot(data = melted_correlation_matrix, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient2(low = "#6D9EC1", high = "#E46726", mid = "white",
+                       midpoint = 0, limit = c(-1, 1), space = "Lab",
+                       name = "Spearman\nCorrelation") +
+  theme_minimal(base_size = 10) +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
+        axis.text.y = element_text(),
+        plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
+        legend.title = element_text(size = 7),
+        legend.text = element_text(size = 5)) +
+  labs(title = "Matriz de Correlación - Método de Spearman",
+       x = "", y = "") +
+  geom_text(aes(label = sprintf("%.2f", value)), color = "black", size = 2) +
+  coord_fixed()
+
+
+```
+
+## Análisis Univariante para Variables Clave
+
+En este análisis, realizamos un análisis univariante para una selección de variables clave del conjunto de datos. Utilizamos `ggplot2` para crear histogramas con densidad (KDE) para cada variable.
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+
+# Lista de variables clave
+variables_clave <- c('Permitir_Inmigrantes_Etnicos', 'Permitir_Inmigrantes_Pobres',
+                     'Impacto_Economico_Inmigracion', 'Impacto_Cultural_Inmigracion',
+                     'Impacto_Calidad_Vida_Inmigracion', 'Edad_Encuestado',
+                     'Anios_Educacion_Completados', 'Satisfaccion_Ingresos_Hogar')
+
+# Crear histogramas con densidad para cada variable clave
+for (col in variables_clave) {
+  p <- ggplot(data, aes_string(x = col)) +
+    geom_histogram(aes(y = ..density..), bins = 30, fill = "blue", color = "black", alpha = 0.7) +
+    geom_density(color = "red", size = 1) +
+    theme_minimal(base_size = 15) +
+    labs(title = paste("Distribución de", col), x = col, y = "Densidad") +
+    theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5))
+  print(p)
+}
+```
+## Análisis Bivariante para Variables Clave
+
+En este análisis, realizamos un análisis bivariante para una selección de variables clave del conjunto de datos, visualizando cómo estas variables se distribuyen según varias variables categóricas. Utilizamos `ggplot2` para crear gráficos de caja (boxplots) que nos ayudan a entender la relación entre las variables.
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+
+# Definir las variables clave
+variables_clave <- c(
+  'Permitir_Inmigrantes_Etnicos', 'Permitir_Inmigrantes_Pobres',
+  'Impacto_Economico_Inmigracion', 'Impacto_Cultural_Inmigracion',
+  'Impacto_Calidad_Vida_Inmigracion', 'Edad_Encuestado',
+  'Anios_Educacion_Completados', 'Satisfaccion_Ingresos_Hogar'
+)
+
+# Análisis bivariante para las variables categóricas
+for (col in variables_clave) {
+  p1 <- ggplot(data, aes_string(x = 'Pais', y = col)) +
+    geom_boxplot() +
+    theme_minimal(base_size = 10) +
+    labs(title = paste(col, "por País"), x = "País", y = col) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  print(p1)
+  
+  p2 <- ggplot(data, aes_string(x = 'Nivel_Educacion_Agrupado', y = col)) +
+    geom_boxplot() +
+    theme_minimal(base_size = 10) +
+    labs(title = paste(col, "por Nivel de Educación"), x = "Nivel de Educación", y = col) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  print(p2)
+  
+  p3 <- ggplot(data, aes_string(x = 'Tipo_Domicilio', y = col)) +
+    geom_boxplot() +
+    theme_minimal(base_size = 10) +
+    labs(title = paste(col, "por Tipo de Domicilio"), x = "Tipo de Domicilio", y = col) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  print(p3)
+  
+  p4 <- ggplot(data, aes_string(x = 'Region_Geografica', y = col)) +
+    geom_boxplot() +
+    theme_minimal(base_size = 10) +
+    labs(title = paste(col, "por Región Geográfica"), x = "Región Geográfica", y = col) +
+    theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1))
+  print(p4)
+}
+```
+
+
+```{r pressure, echo=FALSE}
+
+
+
+```
+
