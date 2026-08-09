@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-contact-intelligence",
+  "version": "1.0.0",
+  "description": "Extract LinkedIn profile and posts intelligence for education contacts via Apify",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dry-run": "node src/cli.js dry-run",
+    "pilot": "node src/cli.js pilot",
+    "extract": "node src/cli.js extract",
+    "consolidate": "node src/cli.js consolidate",
+    "status": "node src/cli.js status",
+    "download-photos": "node src/cli.js download-photos"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "apify-client": "^2.12.1",
+    "dotenv": "^16.4.7",
+    "xlsx": "^0.18.5"
+  }
+}

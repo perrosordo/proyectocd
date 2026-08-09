@@ -1,0 +1,550 @@
+{
+  "generated_at": "2026-08-08T02:16:35.910Z",
+  "photos_dir": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos",
+  "total": 55,
+  "with_url": 49,
+  "without_url": 6,
+  "downloaded": 49,
+  "skipped": 0,
+  "failed": 0,
+  "items": [
+    {
+      "handle": "alvaro-fuenzalida-bergeret-7367392a",
+      "nombre": "Alvaro Fuenzalida Bergeret",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFiFWxFk3KNqA/profile-displayphoto-crop_800_800/B4DZx3FQGBHcAI-/0/1771524399245?e=1787788800&v=beta&t=zZS5oZvKxmUEaNaBx0leOVp-hLSytYoXtrq2tkylbX4",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\alvaro-fuenzalida-bergeret-7367392a.jpg",
+      "bytes": 56234,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "ernesto-silva-méndez-99965910",
+      "nombre": "Ernesto Silva Méndez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQEXAvjj4SVSqA/profile-displayphoto-shrink_800_800/B4EZcjcUgFHYAc-/0/1748646337604?e=1787788800&v=beta&t=9D9DZEfMOi0kRQ6m78r1X0UaVlq2K3dea998YYPSNfE",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\ernesto-silva-méndez-99965910.jpg",
+      "bytes": 94619,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "valeska-veliz-8034393b",
+      "nombre": "Valeska Veliz",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C5603AQE-mMcYBB0_Uw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516872064697?e=1787788800&v=beta&t=p9Hhf-qjor9H56mONDsmKoGmohF8RoqRLuaoaVHRkf8",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\valeska-veliz-8034393b.jpg",
+      "bytes": 35450,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "paula-canales-offen-16a12731",
+      "nombre": "Paula Canales Offen",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQE7GiB_Kpsl9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728349012734?e=1787788800&v=beta&t=hKO6VTanaQplNUOyMXkrNhnsJoy1QcxTjXeBWvSTGKI",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\paula-canales-offen-16a12731.jpg",
+      "bytes": 130483,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "rommelpina",
+      "nombre": "Rommel Piña",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFEpRddXRc4ag/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1686679184873?e=1787788800&v=beta&t=Iz1oRE_XDevUWtCjETSLX2CXMsj2WLUvuk4QO3YWJxw",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\rommelpina.jpg",
+      "bytes": 148721,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "steffaniegomezcomunicacionesymarketing",
+      "nombre": "Steffanie Gómez Pino",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGasdD4UsrvJg/profile-displayphoto-crop_800_800/B4EZg1LI99GUAM-/0/1753238770871?e=1787788800&v=beta&t=WzDRisPUG471FoQuu5CEsGOR35CngnZ5s5uyhspirCo",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\steffaniegomezcomunicacionesymarketing.jpg",
+      "bytes": 100224,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "alberto-labra-welden-3374aa42",
+      "nombre": "Alberto Labra Welden",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQHqTtefluoNtA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712615916062?e=1787788800&v=beta&t=e1BR21fVygsgf_2bhovnXym_fii6hmrUHEfsLSc-lQU",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\alberto-labra-welden-3374aa42.jpg",
+      "bytes": 71903,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "fridaguzmanquezada",
+      "nombre": "Frida Guzmán Quezada",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQHgyYfWNjSJgg/profile-displayphoto-crop_800_800/B4DZ5viPADJYAM-/0/1779987707471?e=1787788800&v=beta&t=Aq8WaxqKuSp_axEzGw0qVKyYPazDdL3KPHbcrg3_n40",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\fridaguzmanquezada.png",
+      "bytes": 772283,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "juanjose-mercadal",
+      "nombre": "Juan José Mercadal Gutiérrez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQESs9DBO4lv8g/profile-displayphoto-crop_800_800/B4EZtQiYOPIUAI-/0/1766582749213?e=1787788800&v=beta&t=u6bFyUIuBl7lZR2CnKMnL6wqazp_Vokn2Mj0bJiEqOo",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\juanjose-mercadal.jpg",
+      "bytes": 83343,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "karinusach",
+      "nombre": "Karin Usach Franck, PhD",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQGtpO4V2qciMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517681426008?e=1787788800&v=beta&t=PZxctJ5mY-4Np2ER3248tsJC1tKGotUExRq-GT8Hdew",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\karinusach.jpg",
+      "bytes": 13664,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "federico-valdés-lafontaine-a81a6532",
+      "nombre": "Federico Valdés Lafontaine",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQEchzPIFc1oaA/profile-displayphoto-crop_800_800/B4DZ6EHLVxJ4AI-/0/1780332936511?e=1787788800&v=beta&t=EmMGCl_lhM_zyE79u9mW1ZtwNEGxKV4w6s5O4wZurFo",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\federico-valdés-lafontaine-a81a6532.png",
+      "bytes": 1242542,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "maría-carla-arellano-garrido",
+      "nombre": "María Carla Arellano Garrido",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFGhRdRmIdVRg/profile-displayphoto-crop_800_800/B4DZxmr9HgI8AI-/0/1771249342575?e=1787788800&v=beta&t=A8mxit71k-yWp5HNeYPa1zonJpiXVTkJ7YVNO2x1feU",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\maría-carla-arellano-garrido.png",
+      "bytes": 1007963,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "fernandoespinosa2008",
+      "nombre": "Fernando Espinosa Pavez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFoOqu7ulH_xQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692934477511?e=1787788800&v=beta&t=V3mDgliRirtmadCodd834Y_8-fvIaGIJoT8XOnDowE4",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\fernandoespinosa2008.jpg",
+      "bytes": 87113,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "ignacio-pérez-tuesta-09024310b",
+      "nombre": "Ignacio Pérez Tuesta",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "ignacio-rojas-43686337",
+      "nombre": "Ignacio Rojas",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGw3pWalgTbuw/profile-displayphoto-shrink_800_800/B4EZTWYq65G0Ak-/0/1738763579654?e=1787788800&v=beta&t=3HD69_04ueMzntQCYC3R2TDHDnKN5RVcP6Av3aGIVTk",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\ignacio-rojas-43686337.jpg",
+      "bytes": 20331,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "jeraldine-salinas-cortez-50326b61",
+      "nombre": "Jeraldine Salinas Cortez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQG-SS9HSZGQLQ/profile-displayphoto-crop_800_800/B4EZtM6pskGcAI-/0/1766522003661?e=1787788800&v=beta&t=1El_lK6mOVnTj-9bb7yjjCIfbfjuRbIcVtaSleeH5X0",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\jeraldine-salinas-cortez-50326b61.jpg",
+      "bytes": 80577,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "denise-fontaine-peddar-b8570417",
+      "nombre": "Denise Fontaine Peddar",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGx9erXYj-9fg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693945539713?e=1787788800&v=beta&t=loJizrxg8-HPzXd7g7423acTiacmKDYuMdH7JFXHS6o",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\denise-fontaine-peddar-b8570417.jpg",
+      "bytes": 29995,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "nicolás-dubo-s-6b090660",
+      "nombre": "Nicolás Dubo S.",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "carolinaarrietan",
+      "nombre": "Carolina Arrieta Núñez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQFN-c95UyQs0A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517519024956?e=1787788800&v=beta&t=ewXwhambitVhsHmziXs0BZ5UHdcmZRHKp6viDwwlyM8",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\carolinaarrietan.jpg",
+      "bytes": 41039,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "maría-eugenia-estay-zañartu-5048b537",
+      "nombre": "María Eugenia Estay Zañartu",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGdlwwwRDHRAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1698161869663?e=1787788800&v=beta&t=iKR57nuD_NQWlGrqqdDp2WV6pJy-isByi9X7ZPY0uSQ",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\maría-eugenia-estay-zañartu-5048b537.jpg",
+      "bytes": 110837,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "camilamolinaperez",
+      "nombre": "Camila Molina Pérez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFMWtz1Z90EEQ/profile-displayphoto-crop_800_800/B4DZzile9vKoAI-/0/1773328028335?e=1787788800&v=beta&t=ThoLEyDncN3zHaUF6VPbzxFljlHAaObMMc1elXGP8Ds",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\camilamolinaperez.png",
+      "bytes": 842325,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "jmsoliscarrasco",
+      "nombre": "Juan Manuel Solís C.",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFUcZyfrBe7Jw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713016487720?e=1787788800&v=beta&t=TSiwUGeRqodSDM_UsfSsPy31DZa1WT9eFVD96og5_cM",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\jmsoliscarrasco.jpg",
+      "bytes": 57591,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "sebafuentesf",
+      "nombre": "Sebastian Fuentes Figueroa",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQGuB8312CunPQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1531682340205?e=1787788800&v=beta&t=m8mm8sTwJTXpN3kGMPRRGW1VS0JeSYtM56Lx3RQAk8s",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\sebafuentesf.jpg",
+      "bytes": 195527,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "camardones",
+      "nombre": "Carolina Mardones",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4D03AQE4c9ECeDtl2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516855421570?e=1787788800&v=beta&t=6YoNVmmVkgNUcs6539NmQ9yzEmeK0-VsBzg-uv5o3-A",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\camardones.jpg",
+      "bytes": 10954,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "camilaechenique",
+      "nombre": "Camila Echeñique",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQF3x1QGnGJR9A/profile-displayphoto-crop_800_800/B4DZ.qPoR0J4AI-/0/1785267653223?e=1787788800&v=beta&t=uhm5sytHpUpAECreOJvSpyFUDGIdmtgJj6C9nA_-DsY",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\camilaechenique.png",
+      "bytes": 627086,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "rodrigoalvarezleiva",
+      "nombre": "Rodrigo Alvarez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQHFL6fT7xX0Tw/profile-displayphoto-crop_800_800/B4DZvYE6fYKEAM-/0/1768856726586?e=1787788800&v=beta&t=4auot7ulEx2o-ViAmyHRKidF26h-XA2mL2DuTtAHHgU",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\rodrigoalvarezleiva.jpg",
+      "bytes": 79538,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "javiera-sanhueza",
+      "nombre": "Javiera Ignacia Sanhueza González",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "francisco-moure-zubiaguirre-7a795054",
+      "nombre": "Francisco Moure Zubiaguirre",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQHkerzhcL4z9A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1587661231483?e=1787788800&v=beta&t=PC5SsGZbYFtgPUp_HpIfNjmN53qcAaTPQWsxxSMEwTw",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\francisco-moure-zubiaguirre-7a795054.jpg",
+      "bytes": 8944,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "sebagitier",
+      "nombre": "Sebastián González Itier",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQE8CcCLkdu6Gg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1624656563062?e=1787788800&v=beta&t=z4JjH5FetB-2_M6KcwZcgkxJ53oa9C4PizDwcRWiBFU",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\sebagitier.jpg",
+      "bytes": 100601,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "marta-castillo-a-b088b624",
+      "nombre": "Marta Castillo A.",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFwyGYbVZ3-Vw/profile-displayphoto-crop_800_800/B4DZ8bxMjwK0AI-/0/1782877311530?e=1787788800&v=beta&t=Lbotqvp5Xhy_b7ScyONv1nXL3HfXo5Sj60GkQme7jDo",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\marta-castillo-a-b088b624.png",
+      "bytes": 674934,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "maría-josé-lacalle-del-campo-76415521",
+      "nombre": "María José Lacalle del Campo",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFrmwDbYh8CIA/profile-displayphoto-crop_800_800/B4DZvcrw73IAAI-/0/1768934019563?e=1787788800&v=beta&t=4jWPgPDITLyanpELTlOih2G5YzIrY5HGrQJ-I-tvB0k",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\maría-josé-lacalle-del-campo-76415521.jpg",
+      "bytes": 120862,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "luis-felipe-vergara-4528431",
+      "nombre": "Luis Felipe Vergara",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFdKKcrtkkhmg/profile-displayphoto-crop_800_800/B4EZ8BLN_dKMAM-/0/1782431148904?e=1787788800&v=beta&t=f6v8QjSMwg03wNdicim8Mz7VIugU7Rvf-KED5MNNYE4",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\luis-felipe-vergara-4528431.png",
+      "bytes": 834955,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "coloma",
+      "nombre": "Jose Coloma Canales",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQEqI5l0h8skcA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1678982015454?e=1787788800&v=beta&t=PogDp1Z599IIWmsZHiPCF8u9lDMlSXW8716WOVLIA24",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\coloma.jpg",
+      "bytes": 78691,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "askanstraume",
+      "nombre": "Askan Straume",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQEEuReKRac_GA/profile-displayphoto-crop_800_800/B4DZx8SalXHcAI-/0/1771611731190?e=1787788800&v=beta&t=XuOXLapyUt2JJcXH5moRINQR4iRuNtCbjwYR9_Pc1Jw",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\askanstraume.png",
+      "bytes": 523305,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "casandratoro",
+      "nombre": "Casandra Martina Toro Morales",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQHoINYNuQQ5wQ/profile-displayphoto-shrink_800_800/B4EZPPKyrkGcAc-/0/1734347533876?e=1787788800&v=beta&t=lkooSkSlbhKIzdVQqE9IcgRDNJ-PITlu3Nwio1BQsVw",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\casandratoro.jpg",
+      "bytes": 129961,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "vanessaheufemann",
+      "nombre": "Vanessa Heufemann González",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "martincook",
+      "nombre": "Martin Cook Rojas",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFsnBd0ax-3gw/profile-displayphoto-crop_800_800/B4EZ4HW.8pJEAQ-/0/1778239926817?e=1787788800&v=beta&t=7UQCugSEMKo2qyUJ6sB1YFXaKuukwjfSxU7Cw5BwBbg",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\martincook.png",
+      "bytes": 694683,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "soraya-madriaza-ciocca",
+      "nombre": "Soraya Madriaza Ciocca, Ph.D.",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "hernán-gonzález-guerrero-58a7124a",
+      "nombre": "Hernán González Guerrero",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFQRcDgEhWdww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1682523764630?e=1787788800&v=beta&t=eOtP7wFbQuWCBKcU1j3JWgaEFj7uR9hJZAe-dRLpM38",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\hernán-gonzález-guerrero-58a7124a.jpg",
+      "bytes": 151799,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "ivonne-castro-bustos",
+      "nombre": "Ivonne Castro",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFFacq48wHj4Q/profile-displayphoto-crop_800_800/B4EZ4XuBMYIcAI-/0/1778514402427?e=1787788800&v=beta&t=zOjTqAXvr6w3lpm0sYhFfpCdTGMbeA5V90gmERlRJOY",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\ivonne-castro-bustos.png",
+      "bytes": 465516,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "francisca-rozas-larraín-92a52a7a",
+      "nombre": "Francisca Rozas Larraín",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQHOi7tY0sD1wQ/profile-displayphoto-crop_800_800/B4DZ64IQkhGUAM-/0/1781205634683?e=1787788800&v=beta&t=g8u_45yfsmQQDmW4IgcWkFveXZCWqlLJw7ar0qQgBTE",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\francisca-rozas-larraín-92a52a7a.png",
+      "bytes": 713630,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "nicole-fuentes-12391346",
+      "nombre": "Nicole Fuentes",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQHGMMXQf7WHkg/profile-displayphoto-crop_800_800/B4DZ2726JQHsAI-/0/1776973232758?e=1787788800&v=beta&t=IP2klGS4NuT-mAq809LHfWdx_Tj8nKLLn9gW9SJCg0Y",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\nicole-fuentes-12391346.png",
+      "bytes": 931634,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "exejimenezg",
+      "nombre": "Exequiel Jiménez Gutiérrez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQGOo9_XvwQFdw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1628633911832?e=1787788800&v=beta&t=CfZkLtpZ1KebiAX2lhe5spboUrthI9r-eWjdw-FOzlw",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\exejimenezg.jpg",
+      "bytes": 109195,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "karen-radonich-36114a2b0",
+      "nombre": "Karen Radonich",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQFBFwiiEGvC9g/profile-displayphoto-crop_800_800/B4DZpSQI8bH0AI-/0/1762316555737?e=1787788800&v=beta&t=fLZ1C8bYSR1epvShp6KhsHTgWZyH5_t-7Dr22R816P4",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\karen-radonich-36114a2b0.png",
+      "bytes": 536534,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "claudiasaldiav",
+      "nombre": "Claudia Saldía",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFfL1lyn874Jw/profile-displayphoto-crop_800_800/B4EZekugMNGcAM-/0/1750815345189?e=1787788800&v=beta&t=BzW6U0vIw3IZ-TDtfRVHKyS8b2Fe0KaXCaC_pveSBXc",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\claudiasaldiav.png",
+      "bytes": 710334,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "mauro-lombardi-villalón-7baa5121",
+      "nombre": "Mauro Lombardi Villalón",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/C4D03AQH6_poYKbNmJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516956718055?e=1787788800&v=beta&t=Bab6sFXMzUXgzmADcUTY3FMZO2a2z5dDNZD97ExKfl4",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\mauro-lombardi-villalón-7baa5121.jpg",
+      "bytes": 13227,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "carolinaobregon",
+      "nombre": "Carolina Obregón Rivas",
+      "estado": "missing_url",
+      "source_url": "",
+      "archivo_local": "",
+      "error": "sin profile_picture_url"
+    },
+    {
+      "handle": "carolina-andrea-san-martín-espinoza-ella-la-she-her-19751338",
+      "nombre": "Carolina San Martín",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQGc9O7YGHZt1Q/profile-displayphoto-crop_800_800/B4DZv3BGD3KMAI-/0/1769375819379?e=1787788800&v=beta&t=_2L-neVm1DfFXFnsvi_MqkdTEp6xVAiy70hgS8_UU-M",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\carolina-andrea-san-martín-espinoza-ella-la-she-her-19751338.jpg",
+      "bytes": 79746,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "carlos-luis-barría-román-25820427",
+      "nombre": "Carlos Luis Barría Román",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGTlbyLHu1tDg/profile-displayphoto-crop_800_800/B4EZmBvedWIUAI-/0/1758818330906?e=1787788800&v=beta&t=LVkPKUa94fbMUDDEEy2ThNQf8wtrQDxnRyShHXVgngE",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\carlos-luis-barría-román-25820427.jpg",
+      "bytes": 50314,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "catherine-troncoso-silva",
+      "nombre": "Catherine Troncoso Silva",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQHlSSWUdutVpA/profile-displayphoto-crop_800_800/B4DZyKXWBvJwAI-/0/1771847904197?e=1787788800&v=beta&t=o11oCdsFZFaGW-nDgwCXvK7489p3YBwO0DmVhhA5NGM",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\catherine-troncoso-silva.png",
+      "bytes": 449624,
+      "content_type": "image/png",
+      "error": ""
+    },
+    {
+      "handle": "maría-consuelo-macari-prats-146977246",
+      "nombre": "María Consuelo Macari Prats",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGik_56IyXxeg/profile-displayphoto-crop_800_800/B4EZhXsNlqGUAI-/0/1753817865153?e=1787788800&v=beta&t=VS67UprVQhcj4tTg5t2HFm0z5Qpv3fw1BAFas-SJQE0",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\maría-consuelo-macari-prats-146977246.jpg",
+      "bytes": 88426,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "valeria-aguayo-martinez-601ab712b",
+      "nombre": "Valeria Aguayo Martínez",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQGxjICd6ZeqNw/profile-displayphoto-shrink_800_800/B4EZS8NhY0HoAg-/0/1738324450495?e=1787788800&v=beta&t=h55KII_tRRzq2ugjb37Xnpu59FiUbtFhDkb4VeYCgjo",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\valeria-aguayo-martinez-601ab712b.jpg",
+      "bytes": 75202,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "francisco-rivera-scaramutti",
+      "nombre": "Francisco Rivera Scaramutti",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQEmNcY7xdlRqg/profile-displayphoto-crop_800_800/B4EZmF6AZkHEAI-/0/1758888200663?e=1787788800&v=beta&t=NmPjKG9d0kCL6vRnBNJtxMYU640rawFBV4xNrD6ec6E",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\francisco-rivera-scaramutti.jpg",
+      "bytes": 156894,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "mpmg",
+      "nombre": "Maria del Pilar Miranda Guerra",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQE_kRa0eY6DrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718248472479?e=1787788800&v=beta&t=bLP9bSLBBilJTs9cUvkIK1jUrLyS39xjHwgcqC6FsQg",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\mpmg.jpg",
+      "bytes": 87973,
+      "content_type": "image/jpeg",
+      "error": ""
+    },
+    {
+      "handle": "nataly-salazar-caro-835a63ba",
+      "nombre": "Nataly Salazar Caro",
+      "estado": "downloaded",
+      "source_url": "https://media.licdn.com/dms/image/v2/D4D03AQH24tdj6xQKUg/profile-displayphoto-crop_800_800/B4DZ6PTxuYKUAI-/0/1780520787576?e=1787788800&v=beta&t=_Spwx3-r4M61nLBwvmOmSbtV2yeUDh2SI5qW2v8jqrA",
+      "archivo_local": "C:\\AI\\prospeccionvocie\\prospeccion\\linkedin-contact-intelligence\\output\\media\\profile_photos\\nataly-salazar-caro-835a63ba.png",
+      "bytes": 785503,
+      "content_type": "image/png",
+      "error": ""
+    }
+  ]
+}
